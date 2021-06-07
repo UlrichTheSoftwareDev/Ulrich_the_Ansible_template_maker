@@ -6,6 +6,7 @@ Ulrich the Ansible template maker is lightweight and simple template for Ansible
 
 ## Template architecture
 
+```
 group_vars/group1.yml -> here we assign variables to particular groups
 
 host_vars/all.yml -> here we assign variables to particular systems
@@ -37,3 +38,5 @@ all.yml -> master playbook : master + nodes
 master.yml -> playbook for master node tier
 
 nodes.yml -> playbook for nodes tier
+
+```
